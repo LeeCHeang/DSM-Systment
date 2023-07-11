@@ -1,11 +1,4 @@
-struct create
-{
-    /* data */
-    int id,qty;
-    float price;
-    char name[15],companny[15];
-};
-
+#include "library.h"
 int create(int *arr, int size){
     struct create data;
     scanf("%d",&data.id);
